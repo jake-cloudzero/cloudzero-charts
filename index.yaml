@@ -3,7 +3,7 @@ entries:
   cloudzero-agent:
   - apiVersion: v2
     appVersion: v2.55.1
-    created: "2025-08-27T00:15:54.28288532Z"
+    created: "2025-08-27T09:08:50.126284-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -24,7 +24,7 @@ entries:
     version: 1.2.7
   - apiVersion: v2
     appVersion: v2.55.1
-    created: "2025-08-27T00:15:54.273035787Z"
+    created: "2025-08-27T09:08:50.12098-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -33,7 +33,7 @@ entries:
       version: 5.36.*
     description: A chart for using Prometheus in agent mode to send cluster metrics
       to the CloudZero platform.
-    digest: ac547bff92ef67fec9f09a6c870e026634f732bc92b15a2cf64f0b671c5dfb20
+    digest: 6fee9b5f0906a3977f07e46f93606cff0986ff9e509e0a650974c2eba28ac006
     kubeVersion: '>= 1.21.0-0'
     maintainers:
     - email: support@cloudzero.com
@@ -45,7 +45,7 @@ entries:
     version: 1.2.6
   - apiVersion: v2
     appVersion: v2.55.1
-    created: "2025-08-27T00:15:54.263122717Z"
+    created: "2025-08-27T09:08:50.115626-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -54,7 +54,49 @@ entries:
       version: 5.36.*
     description: A chart for using Prometheus in agent mode to send cluster metrics
       to the CloudZero platform.
-    digest: 3f9ee155394a65e7d2097ebd6fb923632b4bc9ee3c4c8968317d54a7d9cf0e62
+    digest: 08ffe422b9e9a490da8dfff82b1f9c1ffbcf38e121bdf9be694becf0c0a77c9e
+    kubeVersion: '>= 1.21.0-0'
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.2.6-patch1.tgz
+    version: 1.2.6-patch1
+  - apiVersion: v2
+    appVersion: v2.55.1
+    created: "2025-08-27T09:08:50.110228-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.36.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: 17be0e2f1d4e6b66db48f8e8300c14d5c71d4dfb4bfd21f65eb1c0c633f98de6
+    kubeVersion: '>= 1.21.0-0'
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.2.6-legacy1.tgz
+    version: 1.2.6-legacy1
+  - apiVersion: v2
+    appVersion: v2.55.1
+    created: "2025-08-27T09:08:50.10486-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.36.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: c701b9046555a0ea68d20c8afd63a241a0e9153a4bd183ae3913b34ea455aacc
     kubeVersion: '>= 1.21.0-0'
     maintainers:
     - email: support@cloudzero.com
@@ -66,7 +108,7 @@ entries:
     version: 1.2.5
   - apiVersion: v2
     appVersion: v2.55.1
-    created: "2025-08-27T00:15:54.253005736Z"
+    created: "2025-08-27T09:08:50.099519-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -75,7 +117,49 @@ entries:
       version: 5.36.*
     description: A chart for using Prometheus in agent mode to send cluster metrics
       to the CloudZero platform.
-    digest: 0fd2404098f4831f36c124e960dcd9bccf5450990721f36f26f2949eb4534b8b
+    digest: d2d1d9ca7b92554105f45a623e0f066dc62165911d2caeb968fabc30322d135f
+    kubeVersion: '>= 1.21.0-0'
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.2.5-patch1.tgz
+    version: 1.2.5-patch1
+  - apiVersion: v2
+    appVersion: v2.55.1
+    created: "2025-08-27T09:08:50.094653-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.36.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: 94500b5196da201820ad2488dc0dbd42df0e300e928aa5798c62a79c5e41127b
+    kubeVersion: '>= 1.21.0-0'
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.2.5-legacy1.tgz
+    version: 1.2.5-legacy1
+  - apiVersion: v2
+    appVersion: v2.55.1
+    created: "2025-08-27T09:08:50.089287-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.36.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: cca6a3243b53a14156e0033d822fe8fed73f177dec0d0f3a890092cdaf001c45
     kubeVersion: '>= 1.21.0-0'
     maintainers:
     - email: support@cloudzero.com
@@ -87,7 +171,7 @@ entries:
     version: 1.2.4
   - apiVersion: v2
     appVersion: v2.55.1
-    created: "2025-08-27T00:15:54.243312943Z"
+    created: "2025-08-27T09:08:50.084528-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -96,7 +180,49 @@ entries:
       version: 5.36.*
     description: A chart for using Prometheus in agent mode to send cluster metrics
       to the CloudZero platform.
-    digest: 5886cf4017320ee47b5518b756eb025e29936f4a4d69b065ce4893f80b90bbc1
+    digest: ef4706ba0579bf96a37349136bc69bd56777cf1ead58ab14a81be6a5cdc0081a
+    kubeVersion: '>= 1.21.0-0'
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.2.4-patch1.tgz
+    version: 1.2.4-patch1
+  - apiVersion: v2
+    appVersion: v2.55.1
+    created: "2025-08-27T09:08:50.079114-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.36.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: ac4de6db329475f1e5428b94b452f1348561eb3f64e9eefd8a52e9fb5c5b8b72
+    kubeVersion: '>= 1.21.0-0'
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.2.4-legacy1.tgz
+    version: 1.2.4-legacy1
+  - apiVersion: v2
+    appVersion: v2.55.1
+    created: "2025-08-27T09:08:50.074321-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.36.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: 092730422ca6af387193f1d52eda7f63c26115c69c59cd7409df8ef4bf8c8557
     kubeVersion: '>= 1.21.0-0'
     maintainers:
     - email: support@cloudzero.com
@@ -108,7 +234,7 @@ entries:
     version: 1.2.3
   - apiVersion: v2
     appVersion: v2.55.1
-    created: "2025-08-27T00:15:54.234430059Z"
+    created: "2025-08-27T09:08:50.068834-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -117,7 +243,49 @@ entries:
       version: 5.36.*
     description: A chart for using Prometheus in agent mode to send cluster metrics
       to the CloudZero platform.
-    digest: 56a5557e710289114ebdd1538b058bdc564c2cb9c5e08f6f7fdfeb6f27a1c90d
+    digest: 4cbd75f52c1bcf6f0f89bf5643d1a85663cd5908a1a7e0ba682595546ec210b9
+    kubeVersion: '>= 1.21.0-0'
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.2.3-patch1.tgz
+    version: 1.2.3-patch1
+  - apiVersion: v2
+    appVersion: v2.55.1
+    created: "2025-08-27T09:08:50.063734-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.36.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: 59608f142bda1573d6e158d157b65038414f935c4da67315088b19f77da6ab19
+    kubeVersion: '>= 1.21.0-0'
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.2.3-legacy1.tgz
+    version: 1.2.3-legacy1
+  - apiVersion: v2
+    appVersion: v2.55.1
+    created: "2025-08-27T09:08:50.058934-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.36.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: ea8bf8d08b29f5cc4ce4a4822b87e054f6b780421e76313a420f822737631773
     kubeVersion: '>= 1.21.0-0'
     maintainers:
     - email: support@cloudzero.com
@@ -129,7 +297,7 @@ entries:
     version: 1.2.2
   - apiVersion: v2
     appVersion: v2.55.1
-    created: "2025-08-27T00:15:54.21920357Z"
+    created: "2025-08-27T09:08:50.051167-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -138,7 +306,49 @@ entries:
       version: 5.36.*
     description: A chart for using Prometheus in agent mode to send cluster metrics
       to the CloudZero platform.
-    digest: aade403d1d2160fe017203ef98a47133a2753eee8582f0c774942831a77dba99
+    digest: 4dd3b96085df687d3b3db530ac5f16362f7787691f16ff76acb5cd1b09932740
+    kubeVersion: '>= 1.21.0-0'
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.2.2-patch1.tgz
+    version: 1.2.2-patch1
+  - apiVersion: v2
+    appVersion: v2.55.1
+    created: "2025-08-27T09:08:50.043362-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.36.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: c4cdade6ba233c7a937963b21ebf4f6b90c1ab6206efd71f352fb84821547324
+    kubeVersion: '>= 1.21.0-0'
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.2.2-legacy1.tgz
+    version: 1.2.2-legacy1
+  - apiVersion: v2
+    appVersion: v2.55.1
+    created: "2025-08-27T09:08:50.035581-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.36.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: eb48a2af28a8c57e8831730c69ebe2070d60adc37ccbf9148623dafcbbdeb57e
     kubeVersion: '>= 1.21.0-0'
     maintainers:
     - email: support@cloudzero.com
@@ -150,7 +360,7 @@ entries:
     version: 1.2.1
   - apiVersion: v2
     appVersion: v2.55.1
-    created: "2025-08-27T00:15:54.203782797Z"
+    created: "2025-08-27T09:08:50.028092-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -159,7 +369,49 @@ entries:
       version: 5.36.*
     description: A chart for using Prometheus in agent mode to send cluster metrics
       to the CloudZero platform.
-    digest: 528a826745a5f63f6e68602b4ecbc499faf114f0ea03541381e277f886b39d55
+    digest: 6e886e181dbcd37828c332116b92f59a29dca4c1e02475aeae33456ea8a23918
+    kubeVersion: '>= 1.21.0-0'
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.2.1-patch1.tgz
+    version: 1.2.1-patch1
+  - apiVersion: v2
+    appVersion: v2.55.1
+    created: "2025-08-27T09:08:50.020429-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.36.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: c5fbf5af7f8c72db77e4f4191203143f48343a2066944e5ceba3821beba9c736
+    kubeVersion: '>= 1.21.0-0'
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.2.1-legacy1.tgz
+    version: 1.2.1-legacy1
+  - apiVersion: v2
+    appVersion: v2.55.1
+    created: "2025-08-27T09:08:50.012748-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.36.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: 1e07a04bf3b411c5f1ba0951e4ddce8d39903de651db7b04b882e7f8c870e5e6
     kubeVersion: '>= 1.21.0-0'
     maintainers:
     - email: support@cloudzero.com
@@ -171,7 +423,49 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: v2.55.1
-    created: "2025-08-27T00:15:54.187062845Z"
+    created: "2025-08-27T09:08:50.00492-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.36.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: 86628d03034d797bd21b9ec1d3a5b4e535cd2eaf5a658bfb0a9437c26f0f7ecb
+    kubeVersion: '>= 1.21.0-0'
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.2.0-patch1.tgz
+    version: 1.2.0-patch1
+  - apiVersion: v2
+    appVersion: v2.55.1
+    created: "2025-08-27T09:08:49.99706-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.36.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: d7ee0d7a9f27290bed463cbef3ae518507d0eea403552604b5bcc4a096193917
+    kubeVersion: '>= 1.21.0-0'
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.2.0-legacy1.tgz
+    version: 1.2.0-legacy1
+  - apiVersion: v2
+    appVersion: v2.55.1
+    created: "2025-08-27T09:08:49.989153-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -180,7 +474,7 @@ entries:
       version: 5.15.*
     description: A chart for using Prometheus in agent mode to send cluster metrics
       to the CloudZero platform.
-    digest: e2c7d7119e44becdab856ac1db838e4ea2abc701bba31606c87f1aa5b4b5d446
+    digest: 559bd3294a0b059d5b1a3792babcf5f06418d1bba594f666a06add32e2904835
     kubeVersion: '>= 1.21.0-0'
     maintainers:
     - email: support@cloudzero.com
@@ -192,7 +486,7 @@ entries:
     version: 1.1.2
   - apiVersion: v2
     appVersion: v2.55.1
-    created: "2025-08-27T00:15:54.183437041Z"
+    created: "2025-08-27T09:08:49.987386-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -201,7 +495,49 @@ entries:
       version: 5.15.*
     description: A chart for using Prometheus in agent mode to send cluster metrics
       to the CloudZero platform.
-    digest: 4724c42b5d2d8724519ed16e86052a2cf768c569e8a5b9f8ab406e74f2d80081
+    digest: 65b7abf99b2ac166970744a071e33283bfd2a05fe2d801a271879879fa5a22a6
+    kubeVersion: '>= 1.21.0-0'
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.1.2-patch1.tgz
+    version: 1.1.2-patch1
+  - apiVersion: v2
+    appVersion: v2.55.1
+    created: "2025-08-27T09:08:49.985873-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.15.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: ba1800efc732c223f69a255911f5ef91c1f6f5071c9fb78a24b2f1e8cc529dbf
+    kubeVersion: '>= 1.21.0-0'
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.1.2-legacy1.tgz
+    version: 1.1.2-legacy1
+  - apiVersion: v2
+    appVersion: v2.55.1
+    created: "2025-08-27T09:08:49.984362-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.15.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: 970a0a90f40ee6be642d3f0ca2f80407e9dd42e37bead9e35bdb8151a1aaff4f
     kubeVersion: '>= 1.21.0-0'
     maintainers:
     - email: support@cloudzero.com
@@ -213,7 +549,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: v2.55.1
-    created: "2025-08-27T00:15:54.18057939Z"
+    created: "2025-08-27T09:08:49.982644-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -222,7 +558,49 @@ entries:
       version: 5.15.*
     description: A chart for using Prometheus in agent mode to send cluster metrics
       to the CloudZero platform.
-    digest: df4a5200340ad280929dd48e65ce9fe98e89e42aee79994c9223833a8dc518b6
+    digest: 344f65d9aabe79a630f9304f4c22ddf3c69d35a411f5dfb83089d3ccd5a74ac7
+    kubeVersion: '>= 1.21.0-0'
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.1.1-patch1.tgz
+    version: 1.1.1-patch1
+  - apiVersion: v2
+    appVersion: v2.55.1
+    created: "2025-08-27T09:08:49.981204-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.15.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: d82a39c2b4c8053b15ccff303126d5cc7a9fd55f7bf9a7ba5a1ad27be0431a0a
+    kubeVersion: '>= 1.21.0-0'
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.1.1-legacy1.tgz
+    version: 1.1.1-legacy1
+  - apiVersion: v2
+    appVersion: v2.55.1
+    created: "2025-08-27T09:08:49.979782-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.15.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: d26d8dd570875693a41f24384e44da760597bf203f9dd795941b6ef86bfd4268
     kubeVersion: '>= 1.23.0-0'
     maintainers:
     - email: support@cloudzero.com
@@ -234,7 +612,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.177721309Z"
+    created: "2025-08-27T09:08:49.978366-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -254,8 +632,50 @@ entries:
     - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.1.0-rc-1.tgz
     version: 1.1.0-rc-1
   - apiVersion: v2
+    appVersion: v2.55.1
+    created: "2025-08-27T09:08:49.976382-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.15.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: 7d7678659986c9c4feb2689953d62037e93de4927832f5ea27f534286a52f2d1
+    kubeVersion: '>= 1.23.0-0'
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.1.0-patch1.tgz
+    version: 1.1.0-patch1
+  - apiVersion: v2
+    appVersion: v2.55.1
+    created: "2025-08-27T09:08:49.974978-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.15.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: 6359fc1c245bfcbb3496e7d01c23cff8058a52de5bc6ce9ff22dda57a6bbd3de
+    kubeVersion: '>= 1.23.0-0'
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.1.0-legacy1.tgz
+    version: 1.1.0-legacy1
+  - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.338980524Z"
+    created: "2025-08-27T09:08:50.156596-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -275,7 +695,7 @@ entries:
     version: 1.1.0-beta-2
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.335855842Z"
+    created: "2025-08-27T09:08:50.154947-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -295,7 +715,7 @@ entries:
     version: 1.1.0-beta-1
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.174179455Z"
+    created: "2025-08-27T09:08:49.973523-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -304,7 +724,7 @@ entries:
       version: 5.15.*
     description: A chart for using Prometheus in agent mode to send cluster metrics
       to the CloudZero platform.
-    digest: d602bca0c760abc69befa164b7aff6d06f0ce0fa393df0e799a1f60bcc370da1
+    digest: 3a08e24de860d2d93d56b86bd418b7ddeb75076fddc69f2d1f810b114aed0ad3
     maintainers:
     - email: support@cloudzero.com
       name: CloudZero
@@ -315,7 +735,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.171677904Z"
+    created: "2025-08-27T09:08:49.97165-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -324,7 +744,47 @@ entries:
       version: 5.15.*
     description: A chart for using Prometheus in agent mode to send cluster metrics
       to the CloudZero platform.
-    digest: 8a4ef8c55c4313dbe31a140b8a4dc39e61aa99c668faf13aebe4dc73d723716f
+    digest: f4679c36b230b874c6bb2006cffe312b9ce3e6c3c2831a3850f794d39f324308
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.0.3-patch1.tgz
+    version: 1.0.3-patch1
+  - apiVersion: v2
+    appVersion: v2.50.1
+    created: "2025-08-27T09:08:49.970128-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.15.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: f7047b4104766e839634b4542e3e3b358cc811e5c1fd4955bfcb6b0778005e04
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.0.3-legacy1.tgz
+    version: 1.0.3-legacy1
+  - apiVersion: v2
+    appVersion: v2.50.1
+    created: "2025-08-27T09:08:49.968572-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.15.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: 880921b94e3c99239fd8779b4e572e637c5a5ae398ae00babd34932f7e230f7e
     maintainers:
     - email: support@cloudzero.com
       name: CloudZero
@@ -335,7 +795,47 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.332676777Z"
+    created: "2025-08-27T09:08:49.967055-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.15.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: 107a09decebf144ca8c777c7e90caa5a2e10c4fbdcc17c6a1c11cde243f333d5
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.0.2-patch1.tgz
+    version: 1.0.2-patch1
+  - apiVersion: v2
+    appVersion: v2.50.1
+    created: "2025-08-27T09:08:49.965858-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.15.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: 79f1ced0a4b164839025e005f5db8838c3a48d69e7421ecb82544789403c9ad3
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.0.2-legacy1.tgz
+    version: 1.0.2-legacy1
+  - apiVersion: v2
+    appVersion: v2.50.1
+    created: "2025-08-27T09:08:50.152723-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -360,7 +860,7 @@ entries:
     version: 1.0.2-beta
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.16918042Z"
+    created: "2025-08-27T09:08:49.964621-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -369,7 +869,7 @@ entries:
       version: 5.15.*
     description: A chart for using Prometheus in agent mode to send cluster metrics
       to the CloudZero platform.
-    digest: 6165fdadaff6474c9cc7a922b8e07747ebd8768c8d615143b3649d0057d07ab0
+    digest: 75928746b77f64c5ca824fc0b8fa666d4d09ceea6033df2b5beebb9f7a77d7cc
     maintainers:
     - email: support@cloudzero.com
       name: CloudZero
@@ -380,7 +880,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.166512546Z"
+    created: "2025-08-27T09:08:49.963382-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -400,7 +900,47 @@ entries:
     version: 1.0.1-rc1
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.325498253Z"
+    created: "2025-08-27T09:08:49.961627-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.15.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: 331e2d16c81723a63c7d151799e8b9d2901eb6945f8a134424958847b2fee6c5
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.0.1-patch1.tgz
+    version: 1.0.1-patch1
+  - apiVersion: v2
+    appVersion: v2.50.1
+    created: "2025-08-27T09:08:49.960354-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.15.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: 76d5e6fe569eda1a1f676e5f1bed106f653f03ab75c0b04d2deb0fb7e8f73941
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.0.1-legacy1.tgz
+    version: 1.0.1-legacy1
+  - apiVersion: v2
+    appVersion: v2.50.1
+    created: "2025-08-27T09:08:50.149434-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -424,7 +964,7 @@ entries:
     version: 1.0.1-beta
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.162561106Z"
+    created: "2025-08-27T09:08:49.959099-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -433,7 +973,7 @@ entries:
       version: 5.15.*
     description: A chart for using Prometheus in agent mode to send cluster metrics
       to the CloudZero platform.
-    digest: 9b76e266bf5a888fe9d685aaed22d70ff06ca3fd7af76d4306cbc6e3f5ed5888
+    digest: 35ae04b2e044062cbd9052773555d1e905c60c167a417d639302b9ae76c5b991
     maintainers:
     - email: support@cloudzero.com
       name: CloudZero
@@ -444,7 +984,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.160002527Z"
+    created: "2025-08-27T09:08:49.957545-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -464,7 +1004,7 @@ entries:
     version: 1.0.0-rc4
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.157485697Z"
+    created: "2025-08-27T09:08:49.956073-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -484,7 +1024,7 @@ entries:
     version: 1.0.0-rc3
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.154935044Z"
+    created: "2025-08-27T09:08:49.954479-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -504,7 +1044,7 @@ entries:
     version: 1.0.0-rc2
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.151721677Z"
+    created: "2025-08-27T09:08:49.953042-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -524,7 +1064,47 @@ entries:
     version: 1.0.0-rc1
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.309916348Z"
+    created: "2025-08-27T09:08:49.951315-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.15.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: 895fd9ef57a5a2b4c851e1cfb5e5184f1e944f865c5c02e47a60d8ef969315fb
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.0.0-patch1.tgz
+    version: 1.0.0-patch1
+  - apiVersion: v2
+    appVersion: v2.50.1
+    created: "2025-08-27T09:08:49.950034-07:00"
+    dependencies:
+    - alias: kubeStateMetrics
+      condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.15.*
+    description: A chart for using Prometheus in agent mode to send cluster metrics
+      to the CloudZero platform.
+    digest: 67ecdcb5d0d8a01b7e152672e9ca994bc0c7106854d5ab0a179ca635a49b8e0c
+    maintainers:
+    - email: support@cloudzero.com
+      name: CloudZero
+    name: cloudzero-agent
+    type: application
+    urls:
+    - https://cloudzero.github.io/cloudzero-charts/cloudzero-agent-1.0.0-legacy1.tgz
+    version: 1.0.0-legacy1
+  - apiVersion: v2
+    appVersion: v2.50.1
+    created: "2025-08-27T09:08:50.142168-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -544,7 +1124,7 @@ entries:
     version: 1.0.0-beta-9
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.305882677Z"
+    created: "2025-08-27T09:08:50.140751-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -564,7 +1144,7 @@ entries:
     version: 1.0.0-beta-8
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.303610918Z"
+    created: "2025-08-27T09:08:50.139146-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -584,7 +1164,7 @@ entries:
     version: 1.0.0-beta-7
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.300644017Z"
+    created: "2025-08-27T09:08:50.137752-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -608,7 +1188,7 @@ entries:
     version: 1.0.0-beta-5
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.294878271Z"
+    created: "2025-08-27T09:08:50.134092-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -632,7 +1212,7 @@ entries:
     version: 1.0.0-beta-4
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.288140997Z"
+    created: "2025-08-27T09:08:50.130189-07:00"
     dependencies:
     - alias: kubeStateMetrics
       condition: kubeStateMetrics.enabled
@@ -652,7 +1232,7 @@ entries:
     version: 1.0.0-beta-10
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.318203938Z"
+    created: "2025-08-27T09:08:50.145719-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -676,7 +1256,7 @@ entries:
     version: 1.0.0-beta
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.285804977Z"
+    created: "2025-08-27T09:08:50.128664-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -699,7 +1279,7 @@ entries:
     version: 0.0.29-beta
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.12886679Z"
+    created: "2025-08-27T09:08:49.938537-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -722,7 +1302,7 @@ entries:
     version: 0.0.28
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.126072869Z"
+    created: "2025-08-27T09:08:49.9366-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -745,7 +1325,7 @@ entries:
     version: 0.0.27
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.122521308Z"
+    created: "2025-08-27T09:08:49.935096-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -768,7 +1348,7 @@ entries:
     version: 0.0.26
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.119174257Z"
+    created: "2025-08-27T09:08:49.933531-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -791,7 +1371,7 @@ entries:
     version: 0.0.25
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.116385527Z"
+    created: "2025-08-27T09:08:49.931421-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -814,7 +1394,7 @@ entries:
     version: 0.0.24
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.113613106Z"
+    created: "2025-08-27T09:08:49.92983-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -837,7 +1417,7 @@ entries:
     version: 0.0.23
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.109752794Z"
+    created: "2025-08-27T09:08:49.928063-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -860,7 +1440,7 @@ entries:
     version: 0.0.22
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.107029325Z"
+    created: "2025-08-27T09:08:49.926137-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -883,7 +1463,7 @@ entries:
     version: 0.0.21
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.104329071Z"
+    created: "2025-08-27T09:08:49.924443-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -906,7 +1486,7 @@ entries:
     version: 0.0.20
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.098073987Z"
+    created: "2025-08-27T09:08:49.921239-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -929,7 +1509,7 @@ entries:
     version: 0.0.19
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.095272713Z"
+    created: "2025-08-27T09:08:49.919354-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -952,7 +1532,7 @@ entries:
     version: 0.0.18
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.092156236Z"
+    created: "2025-08-27T09:08:49.917592-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -975,7 +1555,7 @@ entries:
     version: 0.0.17
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.088356017Z"
+    created: "2025-08-27T09:08:49.915861-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -998,7 +1578,7 @@ entries:
     version: 0.0.16
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.085731685Z"
+    created: "2025-08-27T09:08:49.914037-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -1021,7 +1601,7 @@ entries:
     version: 0.0.15
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.083027393Z"
+    created: "2025-08-27T09:08:49.911822-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -1044,7 +1624,7 @@ entries:
     version: 0.0.14
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.079166604Z"
+    created: "2025-08-27T09:08:49.909992-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -1067,7 +1647,7 @@ entries:
     version: 0.0.13
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.076448937Z"
+    created: "2025-08-27T09:08:49.907924-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -1090,7 +1670,7 @@ entries:
     version: 0.0.12
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.073727492Z"
+    created: "2025-08-27T09:08:49.905444-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -1113,7 +1693,7 @@ entries:
     version: 0.0.11
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.07013456Z"
+    created: "2025-08-27T09:08:49.903402-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -1136,7 +1716,7 @@ entries:
     version: 0.0.10
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.149058612Z"
+    created: "2025-08-27T09:08:49.948737-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -1159,7 +1739,7 @@ entries:
     version: 0.0.9
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.146248742Z"
+    created: "2025-08-27T09:08:49.947055-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -1182,7 +1762,7 @@ entries:
     version: 0.0.8
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.142724644Z"
+    created: "2025-08-27T09:08:49.945591-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -1202,7 +1782,7 @@ entries:
     version: 0.0.7
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.140148893Z"
+    created: "2025-08-27T09:08:49.94427-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -1222,7 +1802,7 @@ entries:
     version: 0.0.6
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.137422098Z"
+    created: "2025-08-27T09:08:49.942678-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -1242,7 +1822,7 @@ entries:
     version: 0.0.5
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.134830989Z"
+    created: "2025-08-27T09:08:49.941311-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -1262,7 +1842,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.131373732Z"
+    created: "2025-08-27T09:08:49.939929-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -1282,7 +1862,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.100776937Z"
+    created: "2025-08-27T09:08:49.922813-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -1302,7 +1882,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: v2.50.1
-    created: "2025-08-27T00:15:54.067215274Z"
+    created: "2025-08-27T09:08:49.901182-07:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -1323,7 +1903,7 @@ entries:
   cloudzero-insights-controller:
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2025-08-27T00:15:54.372062241Z"
+    created: "2025-08-27T09:08:50.17246-07:00"
     dependencies:
     - alias: cert-manager
       condition: cert-manager.enabled
@@ -1340,7 +1920,7 @@ entries:
     version: 1.0.2-beta
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2025-08-27T00:15:54.364078398Z"
+    created: "2025-08-27T09:08:50.169777-07:00"
     dependencies:
     - alias: cert-manager
       condition: cert-manager.enabled
@@ -1357,7 +1937,7 @@ entries:
     version: 1.0.1-beta
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2025-08-27T00:15:54.354244921Z"
+    created: "2025-08-27T09:08:50.164685-07:00"
     dependencies:
     - alias: cert-manager
       condition: cert-manager.enabled
@@ -1374,7 +1954,7 @@ entries:
     version: 1.0.0-beta-5
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2025-08-27T00:15:54.348867222Z"
+    created: "2025-08-27T09:08:50.162033-07:00"
     dependencies:
     - alias: cert-manager
       condition: cert-manager.enabled
@@ -1391,7 +1971,7 @@ entries:
     version: 1.0.0-beta-4
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-08-27T00:15:54.358511129Z"
+    created: "2025-08-27T09:08:50.167418-07:00"
     dependencies:
     - alias: cert-manager
       condition: cert-manager.enabled
@@ -1408,7 +1988,7 @@ entries:
     version: 1.0.0-beta
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-08-27T00:15:54.344634617Z"
+    created: "2025-08-27T09:08:50.159493-07:00"
     dependencies:
     - alias: cert-manager
       condition: cert-manager.enabled
@@ -1423,4 +2003,4 @@ entries:
     urls:
     - https://cloudzero.github.io/cloudzero-charts/beta/cloudzero-insights-controller-0.0.1.tgz
     version: 0.0.1
-generated: "2025-08-27T00:15:54.064367151Z"
+generated: "2025-08-27T09:08:49.89749-07:00"
